@@ -1,0 +1,32 @@
+{
+  "name": "ts-egg-sequelize",
+  "version": "1.0.0",
+  "description": "ts egg plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint -- --fix && npm run test-local"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xvsuper/ts-egg-sequelize.git"
+  },
+  "keywords": [
+    "egg",
+    "sequelize",
+    "egg-plugin",
+    "ts-egg-plugin",
+    "orm"
+  ],
+  "author": "vsuper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xvsuper/ts-egg-sequelize/issues"
+  },
+  "homepage": "https://github.com/xvsuper/ts-egg-sequelize#readme",
+  "dependencies": {
+    "mz-modules": "^2.1.0",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^4.42.1",
+    "sequelize-typescript": "^0.6.7"
+  }
+}
