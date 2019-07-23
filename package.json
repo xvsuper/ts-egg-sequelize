@@ -1,6 +1,6 @@
 {
   "name": "ts-egg-sequelize",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ts egg plugin",
   "main": "index.js",
   "scripts": {
@@ -24,9 +24,10 @@
   },
   "homepage": "https://github.com/xvsuper/ts-egg-sequelize#readme",
   "dependencies": {
+    "mysql2": "^1.6.5",
     "mz-modules": "^2.1.0",
     "reflect-metadata": "^0.1.13",
-    "sequelize": "^4.42.1",
-    "sequelize-typescript": "^0.6.7"
+    "sequelize": "^4.44.2",
+    "sequelize-typescript": "^0.6.11"
   }
 }
